@@ -1,9 +1,29 @@
 aid: neuron7ai
 name: Neuron7.ai
-description: Neuron7.ai is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Neuron7.ai is an AI service intelligence company whose Service Decision
+  Platform deploys autonomous AI agents for field service, technical support,
+  and customer care. The platform learns from an organization's toughest
+  service challenges, captures and reuses expert tribal knowledge, recommends
+  step-by-step resolutions, and pre-empts equipment failures before they reach
+  customers. Neuron7 integrates with existing CRM, CX, and field service
+  management systems to help technicians and support teams resolve issues
+  faster, prevent downtime, and raise first-time-fix rates. The company is
+  backed by Battery Ventures. Neuron7 exposes no public developer API surface;
+  this profile captures its public web, security, and compliance footprint.
 url: https://raw.githubusercontent.com/api-evangelist/neuron7ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69248bab2c70be8eea76d81c/6a0b423632e4738657293685_668ee1ea33bce8a0d6110c3c_Logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +32,48 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- AI Agents
+- Field Service
+- Technical Support
+- Customer Care
+- Service Intelligence
+- Knowledge Management
 apis: []
+common:
+- type: TrustCenter
+  url: security/neuron7ai-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/neuron7ai-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.neuron7.ai/responsible-disclosure
+- type: DomainSecurity
+  url: security/neuron7ai-domain-security.yml
+- type: Website
+  url: https://www.neuron7.ai/
+- type: Blog
+  url: https://www.neuron7.ai/blog
+- type: Pricing
+  url: https://www.neuron7.ai/pricing
+- type: Support
+  url: https://www.neuron7.ai/contact
+- type: PrivacyPolicy
+  url: https://www.neuron7.ai/privacy
+- type: TermsOfService
+  url: https://www.neuron7.ai/terms
+- type: Compliance
+  url: https://trust.neuron7.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/neuron7-ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

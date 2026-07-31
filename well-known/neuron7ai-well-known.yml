@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://www.neuron7.ai/.well-known/*
+host: https://www.neuron7.ai
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Neuron7.ai is a Webflow-hosted marketing site with no developer/API surface;
+  no /.well-known discovery documents are published. Absence recorded as valid
+  probe data. No WellKnown pointer wired (nothing found).
