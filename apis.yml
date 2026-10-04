@@ -51,7 +51,7 @@ tags:
 - Technical Support
 - Customer Care
 - Service Intelligence
-- Knowledge-Management
+- Knowledge Management
 tags_raw:
 - Company
 - AI Agents
@@ -60,6 +60,7 @@ tags_raw:
 - Customer Care
 - Service Intelligence
 - Knowledge Management
+- Knowledge-Management
 apis: []
 common:
 - type: TrustCenter
